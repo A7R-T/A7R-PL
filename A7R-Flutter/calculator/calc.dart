@@ -6,10 +6,13 @@ void main() {
   print("==========================");
   stdout.write('number1: ');
   String? input1 = stdin.readLineSync();
+  print("==========================");
   stdout.write('operator: ');
   String? opr = stdin.readLineSync();
+  print("==========================");
   stdout.write('number2: ');
   String? input3 = stdin.readLineSync();
+  print("==========================");
 
   int Num1 = int.tryParse(input1 ?? '') ?? 0;
   int Num2 = int.tryParse(input3 ?? '') ?? 0;
