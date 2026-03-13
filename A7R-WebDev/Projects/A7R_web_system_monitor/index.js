@@ -1,0 +1,1 @@
+console.log("A7R server online!");
