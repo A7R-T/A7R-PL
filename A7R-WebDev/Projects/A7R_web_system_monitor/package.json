@@ -1,13 +1,13 @@
 {
   "name": "a7r_web_system_monitor",
   "version": "1.0.0",
-  "description": "The perfect system monitor made by A7R",
+  "description": "The best system monitor that was ever made!",
   "license": "ISC",
   "author": "A7R",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   }
 }

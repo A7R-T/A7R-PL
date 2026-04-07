@@ -1,1 +1,1 @@
-console.log("A7R server online!");
+console.log("hello from server");
