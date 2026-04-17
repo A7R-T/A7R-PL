@@ -1,153 +1,248 @@
- 
-.layout, header{
-	/*Your code should go under this comment*/
-  background-color: #0A131D !important;
-  color: #bbddfa;
-}
-.notion-topbar > .notion-selectable-container > div {
-	/*Your code should go under this comment*/
-  background-color: #0A131D !important;
-  color: #bbddfa;
-}
-.home-content {
-	/*Your code should go under this comment*/
-  background-color: #0A131D !important;
-  color: #bbddfa;
-}
-.notion-sidebar > div:nth-child(4) {
-	/*Your code should go under this comment*/
-  background-color: #0A131D !important;
-  color: #bbddfa;
-}
-.layout-content:nth-child(3) > div > div:nth-child(2) {
-	/*Your code should go under this comment*/
-  background-color: #151F26 !important;
-  color: #bbddfa;
-}
-.layout-content:nth-child(4) .notion-selectable-container > div > div > div > div > div:nth-child(3) {
-	/*Your code should go under this comment*/
-  background-color: #151F26 !important;
-  color: #bbddfa;
-}
-.layout-content:nth-child(5) .notion-selectable-container > div > div > div > div > div:nth-child(3) {
-	/*Your code should go under this comment*/
-  background-color: #151F26 !important;
-  color: #bbddfa;
-}
-div:nth-child(2) > div:nth-child(2) > a > div {
-	/*Your code should go under this comment*/
-  color: #bbddfa;
-}
-.layout-full span {
-	/*Your code should go under this comment*/
-  color: #bbddfa;
-}
-.whenContentEditable {
-	/*Your code should go under this comment*/
-  background-color: #0A131D;
-  color: #bbddfa;
-}
-h1, h2, h3, h4 {
-  color: #bbddfa;
-  text-align: center;
-}
-.notion-gallery-view {
-	/*Your code should go under this comment*/
-  background-color: #06192900;
-}
-[data-content-editable-void] {
-    background-color: #06192900;
-}
-div:has(div > .notion-page-controls) {
-    background-color: #0A131D;
-}
-.notion-table-view-header-row {
-    background-color: #06192900 !important; 
-}
-.pseudoSelection > div {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-}
-.notion-selectable-container > .peek-top-hover-area > div {
-	/*Your code should go under this comment*/
-  background-color: #0A131D;
-  color: #bbddfa;
-}
-.notion-timeline-view {
-  background-color: #06192900 !important;
-}
+ .layout,
+ header {
+   /*Your code should go under this comment*/
+   background-color: #0A131D !important;
+   color: #bbddfa;
+ }
 
-.pseudoSelection > div > div {
-  background: #1B2A35 !important;
-  color: #bbddfa !important;
-}
-div:nth-child(1) > .content-editable-void-no-select > div:nth-child(1) {
-	/*Your code should go under this comment*/
-  display: flex !important;
-  justify-content: center;
-}
-.notion-callout-block > .x78zum5 > div:nth-child(1) {
-	/*Your code should go under this comment*/
-  background-color: #1A2C3D !important;
-}
+ .notion-topbar>.notion-selectable-container>div {
+   /*Your code should go under this comment*/
+   background-color: #0A131D !important;
+   color: #bbddfa;
+ }
 
-.notion-text-block > div {
-	/*Your code should go under this comment*/
-  text-align: center !important;
-}
-.notion-page-controls {
-	/*Your code should go under this comment*/
-  	justify-content: center !important;
-}
-.x78zum5 {
-  justify-content: center !important;
-}
-div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div {
-	/*Your code should go under this comment*/
-  justify-content: center;
-}
+ .home-content {
+   /*Your code should go under this comment*/
+   background-color: #0A131D !important;
+   color: #bbddfa;
+ }
 
-div > .notion-selectable .notion-table-view-cell > div > .x87ps6o {
-	/*Your code should go under this comment*/
-  display: flex !important;
-  justify-content: center;
-}
-.notion-selectable > .x87ps6o > div:nth-child(2) > div:nth-child(2) {
-	/*Your code should go under this comment*/
-  flex-grow: 0 !important;
-}
-.notion-selectable > .x87ps6o > div:nth-child(2) {
-	/*Your code should go under this comment*/
-  justify-content: center !important;
-}
-.notion-selectable > .x87ps6o > div:nth-child(3) > div:nth-child(1) {
-	/*Your code should go under this comment*/
-  display: flex;
-  justify-content: center;
-}
-.notion-selectable div:nth-child(3) > div:nth-child(2) {
-	/*Your code should go under this comment*/
-  display: flex;
-  justify-content: center;
-}
-.notion-collection-item > .x87ps6o > div > div:nth-child(3) {
-	/*Your code should go under this comment*/
-  display: flex;
-  justify-content: center;
-}
-.notion-selectable > .x87ps6o > div:nth-child(4) {
-	/*Your code should go under this comment*/
-  display: flex;
-  justify-content: center;
-}
-.notion-selectable > .x87ps6o > div:nth-child(5) {
-	/*Your code should go under this comment*/
-  display: flex;
-  justify-content: center;
-}
-.notion-selectable > .x87ps6o > div:nth-child(3) > div:nth-child(4) {
-	/*Your code should go under this comment*/
-  display: flex;
-  justify-content: center;
-}
+ .notion-sidebar>div:nth-child(4) {
+   /*Your code should go under this comment*/
+   background-color: #0A131D !important;
+   color: #bbddfa;
+ }
+
+ .layout-content:nth-child(3)>div>div:nth-child(2) {
+   /*Your code should go under this comment*/
+   background-color: #151F26 !important;
+   color: #bbddfa;
+ }
+
+ .layout-content:nth-child(4) .notion-selectable-container>div>div>div>div>div:nth-child(3) {
+   /*Your code should go under this comment*/
+   background-color: #151F26 !important;
+   color: #bbddfa;
+ }
+
+ .layout-content:nth-child(5) .notion-selectable-container>div>div>div>div>div:nth-child(3) {
+   /*Your code should go under this comment*/
+   background-color: #151F26 !important;
+   color: #bbddfa;
+ }
+
+ div:nth-child(2)>div:nth-child(2)>a>div {
+   /*Your code should go under this comment*/
+   color: #bbddfa;
+ }
+
+ .layout-full span {
+   /*Your code should go under this comment*/
+   color: #bbddfa;
+ }
+
+ .whenContentEditable {
+   /*Your code should go under this comment*/
+   background-color: #0A131D;
+   color: #bbddfa;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5 {
+   color: #bbddfa;
+   text-align: center;
+ }
+
+ .notion-gallery-view {
+   /*Your code should go under this comment*/
+   background-color: #06192900;
+ }
+
+ [data-content-editable-void] {
+   background-color: #06192900;
+ }
+
+ div:has(div > .notion-page-controls) {
+   background-color: #0A131D;
+ }
+
+ .notion-table-view-header-row {
+   background-color: #06192900 !important;
+ }
+
+ .pseudoSelection>div {
+   display: flex !important;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .notion-selectable-container>.peek-top-hover-area>div {
+   /*Your code should go under this comment*/
+   background-color: #0A131D;
+   color: #bbddfa;
+ }
+
+ .notion-timeline-view {
+   background-color: #06192900 !important;
+ }
+
+ .pseudoSelection>div>div {
+   background: #1B2A35 !important;
+   color: #bbddfa !important;
+ }
+
+ div:nth-child(1)>.content-editable-void-no-select>div:nth-child(1) {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center;
+ }
+
+ .notion-callout-block>.x78zum5>div:nth-child(1) {
+   /*Your code should go under this comment*/
+   background-color: #1A2C3D !important;
+   color: #bbddfa !important;
+ }
+
+ .notion-text-block>div {
+   /*Your code should go under this comment*/
+   text-align: center !important;
+ }
+
+ .notion-page-controls {
+   /*Your code should go under this comment*/
+   justify-content: center !important;
+ }
+
+ .x78zum5 {
+   justify-content: center;
+ }
+
+ div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div {
+   /*Your code should go under this comment*/
+   justify-content: center;
+   color: #bbddfa;
+ }
+
+ .notion-selectable>.x87ps6o>div:nth-child(2)>div:nth-child(2) {
+   /*Your code should go under this comment*/
+   flex-grow: 0 !important;
+   color: #bbddfa;
+ }
+
+ .notion-selectable>.x87ps6o>div:nth-child(2) {
+   /*Your code should go under this comment*/
+   justify-content: center !important;
+   color: #bbddfa;
+ }
+
+ .notion-selectable>.x87ps6o>div:nth-child(3)>div:nth-child(1) {
+   /*Your code should go under this comment*/
+   display: flex;
+   justify-content: center;
+   color: #bbddfa;
+ }
+
+ .notion-selectable div:nth-child(3)>div:nth-child(2) {
+   /*Your code should go under this comment*/
+   display: flex;
+   justify-content: center;
+   color: #bbddfa;
+ }
+
+ .notion-collection-item>.x87ps6o>div>div:nth-child(3) {
+   /*Your code should go under this comment*/
+   display: flex;
+   justify-content: center;
+   color: #bbddfa;
+ }
+
+ .notion-selectable>.x87ps6o>div:nth-child(4) {
+   /*Your code should go under this comment*/
+   display: flex;
+   justify-content: center;
+   color: #bbddfa;
+ }
+
+ .notion-selectable>.x87ps6o>div:nth-child(5) {
+   /*Your code should go under this comment*/
+   display: flex;
+   justify-content: center;
+   color: #bbddfa;
+ }
+
+ .notion-selectable>.x87ps6o>div:nth-child(3)>div:nth-child(4) {
+   /*Your code should go under this comment*/
+   display: flex;
+   justify-content: center;
+   color: #bbddfa;
+ }
+
+ .notion-text-block>div {
+   /*Your code should go under this comment*/
+   color: #bbddfa;
+ }
+
+ .notion-button-block>div>div>div>div {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .layout-content>.x78zum5>div>div>div>div {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ span {
+   color: #bbddfa !important;
+ }
+
+ .notion-bulleted_list-block>div {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .notion-numbered_list-block>div {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .notion-to_do-block>div {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .notion-toggle-block>div {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .notion-quote-block {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
+
+ .notion-toggle-block>div>div>div {
+   /*Your code should go under this comment*/
+   display: flex !important;
+   justify-content: center !important;
+ }
