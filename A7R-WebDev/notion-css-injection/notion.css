@@ -1,4 +1,4 @@
-  
+ 
 .layout, header{
 	/*Your code should go under this comment*/
   background-color: #0A131D !important;
@@ -131,25 +131,25 @@ div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div {
   justify-content: center;
    color: #bbddfa;
 }
-.notion-collection-item > .x87ps6o > div > div:nth-child(3) {
+.notion-collection-item > .x87ps6o > div > div {
 	/*Your code should go under this comment*/
   display: flex;
   justify-content: center;
    color: #bbddfa;
 }
-.notion-selectable > .x87ps6o > div:nth-child(4) {
+.notion-selectable > .x87ps6o > div {
 	/*Your code should go under this comment*/
   display: flex;
   justify-content: center;
    color: #bbddfa;
 }
-.notion-selectable > .x87ps6o > div:nth-child(5) {
+.notion-selectable > .x87ps6o > div {
 	/*Your code should go under this comment*/
   display: flex;
   justify-content: center;
    color: #bbddfa;
 }
-.notion-selectable > .x87ps6o > div:nth-child(3) > div:nth-child(4) {
+.notion-selectable > .x87ps6o > div:nth-child(3) > div {
 	/*Your code should go under this comment*/
   display: flex;
   justify-content: center;
@@ -206,4 +206,28 @@ mmer-timeline-transition {
 	/*Your code should go under this comment*/
   background-color: #0A131D !important;
   color: #bbddfa;
+}
+.peek-details-sidebar, .peek-details-sidebar > div {
+  background-color: #0A131D !important;
+  color: #bbddfa;
+}
+.notion-view-settings-sidebar {
+  background-color: #0A131D !important;
+  color: #bbddfa;
+}
+.notion-calendar-view > div > div > div > div > div > div > div {
+  background-color: #0A131D !important;
+  color: #bbddfa;
+}
+.notion-selectable .notion-collection_view_page-block {
+  background-color: #0A131D !important;
+  color: #bbddfa;
+}
+.sticky-portal-target > div > div > div > div > div {
+	/*Your code should go under this comment*/
+  background-color: #0A131D !important;
+  color: #bbddfa;
+}
+a:has(.notion-calendar-item-drag-handle-left) >  div {
+  display: block !important;
 }
