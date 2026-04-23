@@ -232,3 +232,11 @@ a:has(.notion-calendar-item-drag-handle-left) >  div {
   background-color: #0A131D !important;
   color: #bbddfa;
 }
+div:nth-child(5) .content-editable-void-no-select {
+	/*Your code should go under this comment*/
+  background-color: #06192900 !important;
+}
+.notion-table-view-add-row {
+	/*Your code should go under this comment*/
+  background-color: #06192900 !important;
+}
