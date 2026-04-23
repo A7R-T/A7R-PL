@@ -1,0 +1,45 @@
+* {
+  color: #bbddfa !important;
+  font-family: hurmit nerd font
+}
+bard-sidenav-content {
+	/*Your code should go under this comment*/
+  background-color: #0A131D !important;
+  color: #bbddfa !important;
+}
+.text-input-field {
+	/*Your code should go under this comment*/
+  background: #1B2A35 !important;
+  color: #bbddfa !important;
+  border-radius: 20px;
+}
+.overflow-container {
+	/*Your code should go under this comment*/
+  background: #1B2A35 !important;
+  color: #bbddfa !important;
+}
+.disclaimer-container {
+	/*Your code should go under this comment*/
+  background: #1B2A35 !important;
+  color: #bbddfa !important;
+}
+.input-gradient[_nghost-ng-c2075182857]:before  {
+	/*Your code should go under this comment*/
+  background: #0A131D !important;
+  color: #bbddfa !important;
+}
+.user-query-bubble-with-background {
+	/*Your code should go under this comment*/
+  background: #1B2A35 !important;
+  color: #bbddfa !important;
+}
+.send-button > .mat-mdc-button-touch-target {
+	/*Your code should go under this comment*/
+  background: #1B2A35 !important;
+  color: #bbddfa !important;
+}
+.mat-ripple {
+	/*Your code should go under this comment*/
+  background: #1B2A35 !important;
+  color: #bbddfa !important;
+}
