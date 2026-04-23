@@ -219,10 +219,7 @@ mmer-timeline-transition {
   background-color: #0A131D !important;
   color: #bbddfa;
 }
-.notion-selectable .notion-collection_view_page-block {
-  background-color: #0A131D !important;
-  color: #bbddfa;
-}
+
 .sticky-portal-target > div > div > div > div > div {
 	/*Your code should go under this comment*/
   background-color: #0A131D !important;
@@ -230,4 +227,8 @@ mmer-timeline-transition {
 }
 a:has(.notion-calendar-item-drag-handle-left) >  div {
   display: block !important;
+}
+.notion-board-view > div > div div{
+  background-color: #0A131D !important;
+  color: #bbddfa;
 }
