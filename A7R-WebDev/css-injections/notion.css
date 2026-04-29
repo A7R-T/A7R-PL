@@ -131,12 +131,6 @@ div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div {
   justify-content: center;
    color: #bbddfa;
 }
-.notion-collection-item > .x87ps6o > div > div {
-	/*Your code should go under this comment*/
-  display: flex;
-  justify-content: center;
-   color: #bbddfa;
-}
 .notion-selectable > .x87ps6o > div {
 	/*Your code should go under this comment*/
   display: flex;
@@ -231,6 +225,36 @@ a:has(.notion-calendar-item-drag-handle-left) >  div {
 .notion-board-view > div > div div{
   background-color: #0A131D !important;
   color: #bbddfa;
+}
+bard-sidenav-content {
+	/*Your code should go under this comment*/
+}
+.text-input-field {
+	/*Your code should go under this comment*/
+}
+.overflow-container {
+	/*Your code should go under this comment*/
+}
+.ng-tns-c1467028159-22:nth-child(1) > .mat-ripple {
+	/*Your code should go under this comment*/
+}
+.disclaimer-container {
+	/*Your code should go under this comment*/
+}
+.input-gradient {
+	/*Your code should go under this comment*/
+}
+.input-gradient {
+	/*Your code should go under this comment*/
+}
+.user-query-bubble-with-background:nth-child(3) {
+	/*Your code should go under this comment*/
+}
+.send-button > .mat-mdc-button-touch-target {
+	/*Your code should go under this comment*/
+}
+.ng-tns-c1467028159-59:nth-child(1) > .mat-ripple {
+	/*Your code should go under this comment*/
 }
 div:nth-child(5) .content-editable-void-no-select {
 	/*Your code should go under this comment*/
