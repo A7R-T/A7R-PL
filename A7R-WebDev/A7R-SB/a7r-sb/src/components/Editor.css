@@ -1,0 +1,175 @@
+.editor-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--a7r-spacing);
+}
+
+.page-header {
+    margin-bottom: var(--a7r-spacing);
+}
+
+.page-header-icon {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.page-header-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--a7r-text);
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-family: var(--a7r-font);
+}
+
+.editor-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 10px;
+    background: var(--a7r-bg-deep);
+    border: 1px solid var(--a7r-border);
+    border-radius: var(--a7r-radius);
+    margin-bottom: var(--a7r-spacing);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.toolbar-btn {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--a7r-text);
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all var(--a7r-transition);
+    font-size: 14px;
+    font-family: var(--a7r-font);
+}
+
+.toolbar-btn:hover {
+    background: var(--a7r-bg-medium);
+    border-color: var(--a7r-border);
+}
+
+.toolbar-btn.active {
+    background: var(--a7r-accent);
+    color: var(--a7r-text-hover);
+    border-color: var(--a7r-accent);
+}
+
+.ProseMirror {
+    outline: none;
+    min-height: 400px;
+    padding: var(--a7r-spacing);
+    background: var(--a7r-bg-deep);
+    border: 1px solid var(--a7r-border);
+    border-radius: var(--a7r-radius);
+}
+
+.ProseMirror > * + * {
+    margin-top: 12px;
+}
+
+.ProseMirror h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--a7r-text);
+}
+
+.ProseMirror h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--a7r-text);
+}
+
+.ProseMirror h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--a7r-text);
+}
+
+.ProseMirror p {
+    color: var(--a7r-text);
+    line-height: 1.7;
+}
+
+.ProseMirror a {
+    color: var(--a7r-accent);
+    text-decoration: underline;
+}
+
+.ProseMirror code {
+    background: var(--a7r-bg-medium);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: var(--a7r-font);
+    font-size: 14px;
+}
+
+.ProseMirror pre {
+    background: var(--a7r-bg-medium);
+    border: 1px solid var(--a7r-border);
+    border-radius: var(--a7r-radius);
+    padding: var(--a7r-spacing);
+    overflow-x: auto;
+}
+
+.ProseMirror pre code {
+    background: none;
+    padding: 0;
+}
+
+.ProseMirror blockquote {
+    border-left: 3px solid var(--a7r-accent);
+    padding-left: var(--a7r-spacing);
+    margin-left: 0;
+    color: var(--a7r-text);
+    opacity: 0.8;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+    padding-left: var(--a7r-spacing);
+    color: var(--a7r-text);
+}
+
+.ProseMirror li {
+    margin: 4px 0;
+}
+
+.ProseMirror hr {
+    border: none;
+    border-top: 1px solid var(--a7r-border);
+    margin: var(--a7r-spacing) 0;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 4px 0;
+}
+
+.task-list input[type="checkbox"] {
+    margin-top: 4px;
+    accent-color: var(--a7r-accent);
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: var(--a7r-text);
+    opacity: 0.5;
+    pointer-events: none;
+    height: 0;
+}

@@ -1,0 +1,1 @@
+/home/a7r/A7R/A7R-PL/A7R-Rust/A7R-SB-CLI/target/debug/notion-tui: /home/a7r/A7R/A7R-PL/A7R-Rust/A7R-SB-CLI/src/app.rs /home/a7r/A7R/A7R-PL/A7R-Rust/A7R-SB-CLI/src/main.rs /home/a7r/A7R/A7R-PL/A7R-Rust/A7R-SB-CLI/src/models.rs /home/a7r/A7R/A7R-PL/A7R-Rust/A7R-SB-CLI/src/storage.rs /home/a7r/A7R/A7R-PL/A7R-Rust/A7R-SB-CLI/src/ui.rs

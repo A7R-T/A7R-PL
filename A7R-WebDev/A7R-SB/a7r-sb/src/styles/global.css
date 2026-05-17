@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Hurmit Nerd Font';
+    src: url('https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@master/build/fonts/HurmitNerdFont-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurmit Nerd Font';
+    src: url('https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@master/build/fonts/HurmitNerdFont-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hurmit Nerd Font';
+    src: url('https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@master/build/fonts/HurmitNerdFont-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Hurmit Nerd Font';
+    src: url('https://cdn.jsdelivr.net/gh/mshaugh/nerdfont-webfonts@master/build/fonts/HurmitNerdFont-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+:root {
+    --a7r-bg-deepest: #0A131D;
+    --a7r-bg-deep: #142330;
+    --a7r-bg-medium: #182634;
+    --a7r-bg-gradient: #203245;
+    --a7r-accent: #8AB2CE;
+    --a7r-accent-hover: #8AB2CE;
+    --a7r-text: #8AB2CE;
+    --a7r-text-hover: #0A131D;
+    --a7r-border: #8AB2CE;
+    --a7r-radius: 17px;
+    --a7r-spacing: 17px;
+    --a7r-transition: 0.37s ease;
+    --a7r-font: 'Hurmit Nerd Font', monospace;
+    --sidebar-width: 280px;
+    --header-height: 60px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--a7r-font);
+}
+
+html, body, #root {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background: var(--a7r-bg-deepest);
+    color: var(--a7r-text);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--a7r-bg-deepest);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--a7r-bg-medium);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--a7r-accent);
+}
+
+::selection {
+    background: var(--a7r-accent);
+    color: var(--a7r-text-hover);
+}
